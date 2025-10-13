@@ -3,7 +3,6 @@
 // }
 // myId(1);
 // myId("200");
-// export {}
 
 type User = {
     name: string;
@@ -32,3 +31,5 @@ function getId(id: number | string) {
     return id;
 }
 console.log(`Db ID: ${getId(123)}`);
+
+export {}

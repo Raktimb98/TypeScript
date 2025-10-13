@@ -1,9 +1,10 @@
+"use strict";
 // function myId(id:number|string){
 //     console.log(`ID: ${id}`);
 // }
 // myId(1);
 // myId("200");
-// export {}
+Object.defineProperty(exports, "__esModule", { value: true });
 var FrostFern = {
     name: "Frost",
     id: 123
