@@ -26,3 +26,5 @@ var data = [1, 2, 3, "4", "5"];
 data.push(6);
 data.push("7");
 console.log(data);
+// Another type of union types
+var car;

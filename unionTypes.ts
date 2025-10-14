@@ -38,4 +38,9 @@ data.push(6);
 data.push("7");
 console.log(data);
 
+// Another type of union types
+let car: "PUNCH" | "ESCALADE" | "LAND CRUISER";
+// car = "DEFENDER"; // It will show error because it is not in the union types.
+
+
 export {}
