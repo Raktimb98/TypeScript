@@ -21,3 +21,8 @@ function getId(id) {
     return id;
 }
 console.log("Db ID: ".concat(getId(123)));
+// Array of union types
+var data = [1, 2, 3, "4", "5"];
+data.push(6);
+data.push("7");
+console.log(data);

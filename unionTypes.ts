@@ -32,4 +32,10 @@ function getId(id: number | string) {
 }
 console.log(`Db ID: ${getId(123)}`);
 
+// Array of union types
+const data: (number | string)[] = [1, 2, 3, "4", "5"];
+data.push(6);
+data.push("7");
+console.log(data);
+
 export {}
