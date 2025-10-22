@@ -6,10 +6,23 @@ interface User {
     startTrail(): string; // alternative syntax(This one is more logical to me)
     getCoupon(couponName: string): number;
 }
-const FrostFern: User = {
+
+interface User {
+    githubToken?: string; // optional property
+}
+
+interface Admin extends User {
+    role: 'admin' | 'super-admin';
+}
+
+const FrostFern: Admin = {
     id: 1,
     name: "Frost Fern",
     email: "frostfern@xyz.in",
+    githubToken: "ghp_1234567890abcdef",
+    role: 'admin',
+
+
     startTrail() {  // Using method shorthand syntax
         return "Trail started";
     },
